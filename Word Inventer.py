@@ -33,8 +33,10 @@ def palCheck():
     for i in lista:
         i = i.lower()
         if i[0] == i[-1] and i[1] == i[-2] and i[2] == i[-3]:
-            palindromeLista.append(i)
-    print(palindromeLista)
+            i = True
+        else:
+            i = False
+        print(i)
 
 
 wordInverter()

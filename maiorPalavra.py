@@ -15,7 +15,7 @@ maiorPalavra = 'a'
 
 
 
-for i in palavras_3:
+for i in palavras:
     if len(i) > len(maiorPalavra):
         maiorPalavra = i
 
